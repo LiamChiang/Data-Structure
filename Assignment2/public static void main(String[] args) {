@@ -1,0 +1,75 @@
+	public static void main(String[] args) {
+
+		Assignment trie = new Assignment();
+
+		// Test put
+//		System.out.println("Insert C Sisi, return " + trie.put("C", "Sisi"));
+//		System.out.println("Insert GA Liam, return " + trie.put("GA", "Liam"));
+//		System.out.println("Insert CG Fred, return " + trie.put("CG", "Fred"));
+//		System.out.println("Insert CT Jane, return " + trie.put("CT", "Jane"));
+//		System.out.println("Insert G Suzy, return " + trie.put("G", "Suzy"));
+//		System.out.println("Insert GAC Bill, return " + trie.put("GAC", "Bill"));
+//		System.out.println("Insert GAT Kate, return " + trie.put("GAT", "Kate"));
+//		System.out.println("Insert CGA Lucy, return " + trie.put("CGA", "Lucy"));
+
+		System.out.println("Insert GAT Bill, return " + trie.put("GAT", "Bill"));
+		System.out.println("Insert GATTC Kate, return " + trie.put("GATTC", "Kate"));
+		System.out.println("Insert GATTACA Lucy, return " + trie.put("GATTACA", "Lucy"));
+		
+		
+		 System.out.println("count prefixes= " + trie.countPrefixes());
+
+		// System.out.println("Insert GA Logan, return " + trie.put("GA",
+		// "Logan"));
+		// // Test Size
+		// System.out.println("Size= " + trie.size());
+		// System.out.println("Remove GAC, return " + trie.remove("GAC"));
+		// System.out.println("Remove GA, return " + trie.remove("GA"));
+		// System.out.println("Size= " + trie.size());
+		//
+		// // Output
+		// HashMap<String, String> map = trie.getAllWords();
+		// System.out
+		// .println("*********************Current Hash map*****************");
+		// for (String key : map.keySet()) {
+		// System.out.println(key + " " + map.get(key));
+		// }
+
+		// // Test Get
+		// System.out.println("The value of G is " + trie.get("G"));
+
+		// // Test Remove
+		// System.out
+		// .println("*********************************************************");
+		// System.out.println("Remove G Suzy, return " + trie.remove("G"));
+		// System.out.println("Remove G Suzy, return " + trie.remove("G"));
+
+		// System.out
+		// .println("*********************Current Hash map*****************");
+		// HashMap<String, String> map2 = trie.getAllWords();
+		// for (String key : map2.keySet()) {
+		// System.out.println(key + " " + map2.get(key));
+		// }
+
+		// System.out.println("Size= " + trie.size());
+		// System.out.println("The value of G is " + trie.get("G"));
+
+		// // Test: countKeysMatchingPrefix
+		// System.out.println("Number of Prefix GAC is "
+		// + trie.countKeysMatchingPrefix("GA"));
+
+		// // Test:getKeysMatchingPrefix
+		// System.out.println("Show Prefix C ");
+		// for (String s : trie.getKeysMatchingPrefix("C")) {
+		// System.out.println(s);
+		// }
+
+		// // Test:countPrefixes();
+		// System.out.println("Number of Unique Prefix is: "
+		// + trie.countPrefixes());
+
+		// // Test:sumKeyLengths()
+		// System.out.println("Sum length of Prefix is: " +
+		// trie.sumKeyLengths());
+
+	}
